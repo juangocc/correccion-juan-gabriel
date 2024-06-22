@@ -3,5 +3,5 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n - 1)
-
-print(factorial(5))
+numero = 5
+print("El factorial del numero : "+str(numero)+" es : "+str(factorial(numero)))
